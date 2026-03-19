@@ -19,14 +19,15 @@ To run this project, follow these steps in your terminal:
 1. Rebuild the database using the provided SQL file:
    ```bash
    psql -U postgres < salon.sql
+    ```
 2. Give execution permission to the script:
    ```bash
    chmod +x salon.sh
-
+    ```
 3. Run the script:
    ```bash
    ./salon.sh
-
+    ```
 ## 🗃 Database Schema
 The project consists of three tables:
 - services: Stores service names and IDs.
